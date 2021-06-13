@@ -1,0 +1,117 @@
+nav .aTitulo {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 2%;
+}
+
+/*estilos en la hoja de index.html*/
+
+li > a {
+  text-decoration: none;
+}
+
+main h3,
+form,
+ul {
+  margin-left: 5%;
+}
+
+main section .dMargenesOferta {
+  margin: 0 5vw;
+}
+
+main .sct-oferta h3 {
+  color: red;
+}
+
+main .sct-oferta tbody .trOferta:hover {
+  color: blue;
+  font-weight: bolder;
+}
+
+/*sección de detalle.html*/
+
+.sct-boton-agregar-carrito p {
+  margin-top: 5vh;
+  text-align: center;
+}
+
+/*sección para hoja de contacto*/
+.sct-form-contacto form input {
+  width: 50vw;
+}
+
+.sct-form-contacto h2, .sct-contactenos h2 {
+  margin-left: 5%;
+  margin-top: 2vh;
+}
+
+.sct-form-contacto form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.sct-form-contacto .bEnviar {
+  color: black;
+  background: rgb(241, 207, 196);
+  border: 1px solid rgb(241, 207, 196);
+  width: 14vw;
+}
+
+.sct-form-contacto .bEnviar:hover {
+  color: blue;
+  background: #fff;
+  border: 1px solid rgb(241, 207, 196);
+  width: 14vw;
+}
+
+
+input::placeholder {
+  font-style: italic;
+  color: rgb(130, 137, 238);
+}
+
+input:focus:invalid {
+  /*cuando uno da click sobre el elemento se pone del color designado*/
+  background-color: #f53333;
+}
+
+.formulario:invalid::after {
+  content: "Todos los datos del formulario deben ser completados. Verifique.";
+  color: red;
+  padding-top: 1rem;
+}
+
+.formulario:valid::before {
+  content: "Todos los datos del formulario han sido completados apropiadamente";
+  color: red;
+}
+
+input:invalid + span[message]::after {
+  content: attr(message);
+}
+
+.sct-contactenos h5, p{
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+.redesBorder{
+  border: 1px solid black;
+}
+
+/*sección de Acerca de*/
+.sct-descripcion-sitio p span, i {
+  color: blue;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.sct-descripcion-sitio p {
+  margin-left: 2.75%;
+}
+
+.sct-descripcion-sitio p{
+  margin-top: 5vh;
+}
