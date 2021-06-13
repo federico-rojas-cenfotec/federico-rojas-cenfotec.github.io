@@ -66,13 +66,7 @@
       </nav>
     </header>
     <main>
-      <a id="aId" href="#" style="margin-left: 2rem;">
-        <script>
-          const urlParams = new URLSearchParams(window.location.search);
-          const id = urlParams.get("id");
-          document.writeln(id);
-        </script>
-      </a>
+      
       <!--h3>
         <script>
           const urlParams1 = new URLSearchParams(window.location.search);
@@ -83,9 +77,6 @@
 
       <section style="margin-left: 2rem;">
         <table>
-          <!--caption>
-            Detalles del producto elegido
-          </caption-->
           <thead>
             <tr>
               <th>No. código</th>
@@ -96,7 +87,14 @@
           <tbody id="results"></tbody>
         </table>
       </section>
-
+      <a id="aId" href="#" style="margin-left: 2rem;">
+        <script>
+          const urlParams = new URLSearchParams(window.location.search);
+          const id = urlParams.get("id");
+          document.writeln(id);
+        </script>
+      </a>
+      
       <!--sección de agregar al carrito-->
       <section class="sct-boton-agregar-carrito">
         <p>

@@ -56,7 +56,7 @@ main .sct-oferta tbody .trOferta:hover {
   color: black;
   background: rgb(241, 207, 196);
   border: 1px solid rgb(241, 207, 196);
-  width: 24vw;
+  width: 24%;
 }
 
 .sct-form-contacto .bEnviar:hover {
@@ -110,8 +110,27 @@ input:invalid + span[message]::after {
 
 .sct-descripcion-sitio p {
   margin-left: 2.75%;
+  text-align: left;
 }
 
 .sct-descripcion-sitio p{
   margin-top: 5vh;
+}
+
+/*sección para hoja de carrito*/
+main section h3{
+  margin-top: 2vh;
+  text-align: center;
+}
+
+main section table{
+  padding-right: 20%;
+}
+
+main section .bordeSup{
+  border: 1px solid red;
+}
+
+.bordeSup1{
+  border: 1px solid black;
 }
