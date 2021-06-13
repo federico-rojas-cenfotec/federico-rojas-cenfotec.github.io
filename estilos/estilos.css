@@ -5,6 +5,9 @@ nav .aTitulo {
 }
 
 /*estilos en la hoja de index.html*/
+ul > li > a > p {
+  text-align: left;
+}
 
 li > a {
   text-decoration: none;
