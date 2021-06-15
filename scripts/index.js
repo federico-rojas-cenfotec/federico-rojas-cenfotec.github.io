@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function (params) {
                         a.classList.add('row');
                         a.classList.add('align-items-center');
                         a.setAttribute('href',`detalle.html?id=${p.id}`);
-                        /*a.setAttribute('href',`detalle.html?productName=${p.productName}`);*/
+                        a.setAttribute('href',`detalle.html?productName=${p.productName}`);
                         /*a.setAttribute('href',`detalle.html?unitPrice=${p.unitPrice}`);*/
 
                         let pr = document.createElement('p');
