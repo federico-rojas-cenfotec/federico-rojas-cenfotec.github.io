@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function (params) {
                 const dataJson = await dataRequest.json();
 
                 const products = dataJson.products;
-
+ 
                 let filtered = products.filter(p => p.productName.toLowerCase().indexOf(filter.toLowerCase()) !== -1);
                 console.log(filtered);
 
@@ -28,9 +28,8 @@ document.addEventListener('DOMContentLoaded', function (params) {
                         const a = document.createElement('a');/*si cambio la "a" por una "p" deja de ser enlaces*/
                         a.classList.add('row');
                         a.classList.add('align-items-center');
-                        a.setAttribute('href',`detalle.html?id=${p.id}`);
-                        a.setAttribute('href',`detalle.html?productName=${p.productName}`);
-                        /*a.setAttribute('href',`detalle.html?unitPrice=${p.unitPrice}`);*/
+                        a.setAttribute('href', `detalle.html?id=${p.id}&productName=${p.productName}&unitPrice=${p.unitPrice}`);
+                        /*id, productName y unitPrice deben coincidir aquí en línea 31 y en las filas 87, 94 y 101 de detalle.html*/
 
                         let pr = document.createElement('p');
                         pr.classList.add('col-8');
