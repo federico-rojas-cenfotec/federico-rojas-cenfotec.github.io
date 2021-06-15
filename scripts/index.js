@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function (params) {
                         a.classList.add('row');
                         a.classList.add('align-items-center');
                         a.setAttribute('href', `detalle.html?id=${p.id}&productName=${p.productName}&unitPrice=${p.unitPrice}`);
-                        /*id, productName y unitPrice deben coincidir aquí en línea 31 y en las filas 87, 94 y 101 de detalle.html*/
+                        /*id, productName y unitPrice deben coincidir aquí en línea 31 y en las filas 86, 93 y 100 de detalle.html*/
 
                         let pr = document.createElement('p');
                         pr.classList.add('col-8');
