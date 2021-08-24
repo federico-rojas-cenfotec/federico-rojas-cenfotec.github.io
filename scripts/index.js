@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function (params) {
                         let pr3 = document.createElement('p');/*cambio la "p" por una "a" para que el ícono sea un enlace*/
                         pr3.classList.add('col-1');
                         pr3.innerHTML = '<i class="fas fa-angle-double-right"></i>';
-                        pr3.setAttribute('href',`detalle.html?id=${p.id}`);
+                        /*pr3.setAttribute('href',`detalle.html?id=${p.id}`);*/
                         a.appendChild(pr3);
 
                         li.appendChild(a);
