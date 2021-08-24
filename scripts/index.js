@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function(params) {
                         a.appendChild(pr);
 
                         let pr2 = document.createElement('p');
-                        pr2.classList.add('col-3');
+                        pr2.classList.add('col-2');
                         pr2.innerText = `${p.unitPrice}`;
                         a.appendChild(pr2);
 
